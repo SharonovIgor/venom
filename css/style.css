@@ -60,4 +60,39 @@ body {
     line-height: 22px;
     color: rgba(255, 255, 255, 0.8);
     max-width: 423px;
+    margin-bottom: 70px;
+}
+.button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button__icon, .button__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.button__text{
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.button__link{
+    color: #fff;
+}
+.button__primery{
+    color: #8D0019;
+    background-color: #fff;
+}
+.venom{
+    max-width: 626px;
+    max-height: 724px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blood{
+    background: url("../img/blood.png") no-repeat top right,
+    url("../img/bg.jpg") no-repeat center center;
+
 }
